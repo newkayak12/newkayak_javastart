@@ -1,4 +1,4 @@
-package sec03.exam04.Operation;
+package sec03.exam04_Operation;
 
 public class OperationPromotionExample {
 

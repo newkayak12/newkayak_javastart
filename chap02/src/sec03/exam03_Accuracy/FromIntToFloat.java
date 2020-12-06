@@ -1,4 +1,4 @@
-package sec03.exam03.Accuracy;
+package sec03.exam03_Accuracy;
 
 public class FromIntToFloat {
 
