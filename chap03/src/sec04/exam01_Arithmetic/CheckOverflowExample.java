@@ -7,7 +7,7 @@ public class CheckOverflowExample {
 //int result = left + right; //여기서 left, right는 사용자가 입력한 값이거나 DB에서 불러온 값이거나 외부에서 지정하는 수
 
 		try {
-	int result = safeAdd(2000000000, 1);
+	int result = safeAdd(2000000000, 2000000000);
 	System.out.println(result);
 		} catch(ArithmeticException e) {
 			System.out.println("오버플로우가 발생하여 연산할 수 없음.");
