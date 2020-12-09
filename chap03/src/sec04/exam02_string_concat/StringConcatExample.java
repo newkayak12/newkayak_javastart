@@ -1,4 +1,4 @@
-package sec04.exam01_Arithmetic;
+package sec04.exam02_string_concat;
 
 public class StringConcatExample {
 
