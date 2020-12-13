@@ -1,4 +1,4 @@
-package exam01_If;
+package sec02.exam01_If;
 
 public class IfDiceExample {
 

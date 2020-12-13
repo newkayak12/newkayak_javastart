@@ -1,4 +1,4 @@
-package exam02_Switch;
+package sec02.exam02_Switch;
 
 public class SwitchCharExample {
 
