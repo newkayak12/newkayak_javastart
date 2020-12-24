@@ -1,4 +1,4 @@
-package »Æ¿ŒπÆ¡¶;
+package verifyExam;
 
 public class _8_ArrayValueSumAndAverage {
 
@@ -16,9 +16,9 @@ for(int i=0; i<array.length; i++ ) {
 	}
 	avgnum += array[i].length;
 }
-System.out.println("array πËø≠¿« √— «’¿∫ " + sum);
+System.out.println("array ÔøΩËø≠ÔøΩÔøΩ ÔøΩÔøΩ ÔøΩÔøΩÔøΩÔøΩ " + sum);
 avg = (double) sum/ avgnum;
-System.out.println("array πËø≠¿« ∆Ú±’ ∞™¿∫ " +  avg);
+System.out.println("array ÔøΩËø≠ÔøΩÔøΩ ÔøΩÔøΩÔøΩ ÔøΩÔøΩÔøΩÔøΩ " +  avg);
 	}
 
 }

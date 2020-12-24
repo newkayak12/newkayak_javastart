@@ -1,4 +1,4 @@
-package È®ÀÎ¹®Á¦;
+package verifyExam;
 
 import java.util.Scanner;
 
@@ -16,12 +16,12 @@ int keyinput = 0;
 rturn: do {
 main: do {
 	System.out.println("-------------------------------------------------");
-	System.out.println("                     ATM ¼­ºñ½º            		 ");
+	System.out.println("                     ATM ï¿½ï¿½ï¿½ï¿½            		 ");
 	System.out.println("-------------------------------------------------");
-	System.out.println("                  1.   ÀÔ±Ý                     ¡¡ ");
-	System.out.println("                  2.   Ãâ±Ý                     ¡¡ ");
-	System.out.println("                  3. ÅëÀå Á¶È¸    			¡¡ ¡¡¡¡ ");
-	System.out.println("                  4. ¼­ºñ½º Á¾·á                 ");
+	System.out.println("                  1.   ï¿½Ô±ï¿½                     ï¿½ï¿½ ");
+	System.out.println("                  2.   ï¿½ï¿½ï¿½                     ï¿½ï¿½ ");
+	System.out.println("                  3. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¸    			ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ");
+	System.out.println("                  4. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½                 ");
 	System.out.println("-------------------------------------------------");
 	System.out.print(">");
 	inputString = scanner.nextLine();
@@ -31,25 +31,25 @@ deposit: do {
 	System.out.println("-------------------------------------------------");		
 	System.out.println();
 	System.out.println();
-	System.out.println("             ÀÔ±Þ ¼­ºñ½º¸¦ ½ÇÇàÇÕ´Ï´Ù.");
-	System.out.println("             ¾ó¸¶¸¦ ÀÔ±ÝÇÏ½Ã°Ú½À´Ï±î?");
+	System.out.println("             ï¿½Ô±ï¿½ ï¿½ï¿½ï¿½ñ½º¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+	System.out.println("             ï¿½ó¸¶¸ï¿½ ï¿½Ô±ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?");
 	System.out.println();
 	System.out.println();
-	System.out.println("                                     q: ¸ÞÀÎ ¸Þ´ºÀ¸·Î");
+	System.out.println("                                     q: ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½");
 	System.out.println("-------------------------------------------------");
 	System.out.print(">");
 	inputString = scanner.nextLine();
 	if(inputString.equals ("q")) { break main;
 	} else {
-	//ÀÔ±Ý	
+	//ï¿½Ô±ï¿½	
 	keyinput = Integer.parseInt(inputString);
 		balance += (long) keyinput;
 		System.out.println("-------------------------------------------------");	
-		System.out.println("         "+keyinput + "¿øÀ» ÀÔ±ÝÇß½À´Ï´Ù.");
-		System.out.println("      ÇöÀç ÀºÇà ÀÜ°í´Â " + balance + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println("         "+keyinput + "ï¿½ï¿½ï¿½ï¿½ ï¿½Ô±ï¿½ï¿½ß½ï¿½ï¿½Ï´ï¿½.");
+		System.out.println("      ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ü°ï¿½ï¿½ " + balance + "ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 		System.out.println();
 		System.out.println();
-		System.out.println("           Ãß°¡·Î ÀÔ±ÝÇÏ½Ã°Ú½À´Ï±î? Y/N");
+		System.out.println("           ï¿½ß°ï¿½ï¿½ï¿½ ï¿½Ô±ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½? Y/N");
 		System.out.println("-------------------------------------------------");	
 		System.out.println(">");
 		inputString = scanner.nextLine();
@@ -65,27 +65,27 @@ deposit: do {
 withdraw :do {
 	System.out.println("-------------------------------------------------");		
 	System.out.println();
-	System.out.println("             Ãâ±Ý ¼­ºñ½º¸¦ ½ÇÇàÇÕ´Ï´Ù.");
-	System.out.println("              ¾ó¸¶¸¦ Ãâ±ÝÇÏ½Ã°Ú½À´Ï±î?");
+	System.out.println("             ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ñ½º¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+	System.out.println("              ï¿½ó¸¶¸ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?");
 	System.out.println();
-	System.out.println("                                     q: ¸ÞÀÎ ¸Þ´ºÀ¸·Î");
+	System.out.println("                                     q: ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½");
 	System.out.println("-------------------------------------------------");
 	System.out.println(">");
 	inputString = scanner.nextLine();
 if(inputString.equals ("q")) { break main;
 	} else {
-	//Ãâ±Ý	
+	//ï¿½ï¿½ï¿½	
 		keyinput = Integer.parseInt(inputString);
 		if((long)balance>=(long)keyinput) {
-///////////////////////////////////////////////////////// ¸¶ÀÌ³Ê½º ÅëÀå¶ä	
+///////////////////////////////////////////////////////// ï¿½ï¿½ï¿½Ì³Ê½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½	
 		balance -= (long) keyinput;
 		System.out.println("-------------------------------------------------");	
-		System.out.println("         "+keyinput + "¿øÀ» Ãâ±ÝÇß½À´Ï´Ù.");
-		System.out.println("      ÇöÀç ÀºÇà ÀÜ°í´Â " + balance + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println("         "+keyinput + "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ß½ï¿½ï¿½Ï´ï¿½.");
+		System.out.println("      ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ü°ï¿½ï¿½ " + balance + "ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 		System.out.println();
 		System.out.println();
 		
-		System.out.println("           Ãß°¡·Î Ãâ±ÝÇÏ½Ã°Ú½À´Ï±î? Y/N");
+		System.out.println("           ï¿½ß°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½? Y/N");
 		System.out.println("-------------------------------------------------");	
 		System.out.println(">");
 		inputString = scanner.nextLine();
@@ -95,8 +95,8 @@ if(inputString.equals ("q")) { break main;
 		}else if(inputString.equals("N")||inputString.equals("n")){ continue rturn;
 		  
 		}
-   }else {System.out.println("ÀÜ°í°¡ ºÎÁ·ÇÕ´Ï´Ù.");
-   System.out.println("±Ý¾×À» ´Ù½Ã ÀÔ·ÂÇØ ÁÖ½Ê½Ã¿À");
+   }else {System.out.println("ï¿½Ü°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+   System.out.println("ï¿½Ý¾ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö½Ê½Ã¿ï¿½");
 	continue withdraw;
 	}
 		}
@@ -106,21 +106,21 @@ if(inputString.equals ("q")) { break main;
 check: do {		
 		System.out.println("-------------------------------------------------");		
 		System.out.println();
-		System.out.println("             ÀÜ°í Á¶È¸ ¼­ºñ½º¸¦ ½ÇÇàÇÕ´Ï´Ù.");
-		System.out.println("             ÇöÀç ÃÑ ±Ý¾×Àº  " + balance + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println("             ï¿½Ü°ï¿½ ï¿½ï¿½È¸ ï¿½ï¿½ï¿½ñ½º¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+		System.out.println("             ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ý¾ï¿½ï¿½ï¿½  " + balance + "ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 		System.out.println();
-		System.out.println("                                     q: ¸ÞÀÎ ¸Þ´ºÀ¸·Î");
+		System.out.println("                                     q: ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½");
 		System.out.println("-------------------------------------------------");
 		inputString = scanner.nextLine();
 } while(!inputString.equals("q"));
 	continue main;
 	}
 }while (!inputString.equals("4"));
-System.out.println("¼­ºñ½º¸¦ Á¾·áÇÕ´Ï´Ù.");
+System.out.println("ï¿½ï¿½ï¿½ñ½º¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 
 } while (!inputString.equals("4"));
-System.out.println("ÀÌ¿ëÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.");
+System.out.println("ï¿½Ì¿ï¿½ï¿½ï¿½ï¿½Ö¼Å¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 }
 }
-	//// È®ÀÎ¹®Á¦º¸°í »â¹Þ¾Æ¼­ ¸¸µé¾ú´Âµ¥ I/O ÀÔ·Â ÀåÄ¡ ÂÊ ¸ð¸£´Ï±î Çò±ò¸®³×
-// Á¶°Ç, ¹Ý¸ñ¹® ´Ù½Ã ÇÑ ¹ø º¹½ÀÇÏ°í µý°Å ¶Ç ¸¸µé¾îºÁ¾ß°Ú´Ù.
+	//// È®ï¿½Î¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Þ¾Æ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ I/O ï¿½Ô·ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ ï¿½ð¸£´Ï±ï¿½ ï¿½ï¿½ò¸®³ï¿½
+// ï¿½ï¿½ï¿½ï¿½, ï¿½Ý¸ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß°Ú´ï¿½.

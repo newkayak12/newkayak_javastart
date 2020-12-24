@@ -1,4 +1,4 @@
-package È®ÀÎ¹®Á¦;
+package verifyExam;
 
 import java.util.Scanner;
 
@@ -15,10 +15,10 @@ public static void main(String args[]) {
 
 	 while(run) {
 		System.out.println("-------------------------------------------------------------------------");
-		System.out.println("                               ÇÐ »ý ¼º Àû °ü ¸® Ã¼ °è");
+		System.out.println("                               ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ Ã¼ ï¿½ï¿½");
 		System.out.println();
 		System.out.println();
-		System.out.println("  1. ÇÐ»ý ¼ö ÀÔ·Â |   2. ÇÐ»ý Á¡¼ö ÀÔ·Â |  3. Á¡¼ö ¸®½ºÆ® |  4. Á¡¼ö ºÐ¼® |  5. Á¾·á");
+		System.out.println("  1. ï¿½Ð»ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½ |   2. ï¿½Ð»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ |  3. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® |  4. ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¼ï¿½ |  5. ï¿½ï¿½ï¿½ï¿½");
 		System.out.println();
 		System.out.println("-------------------------------------------------------------------------");
 		System.out.print(">");
@@ -27,29 +27,29 @@ public static void main(String args[]) {
           //////////////////////////////////////////////////////////////////////////////////////////////
 		if(selectNo ==1 ) {
 		System.out.println("-------------------------------------------------------------------------");
-		System.out.println("                               ÇÐ »ý °ü ¸® ¼­ ºñ ½º");	
+		System.out.println("                               ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½");	
 		System.out.println();
-		System.out.println("                              ÇÐ»ýÀÇ ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+		System.out.println("                              ï¿½Ð»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½");
 		
 		System.out.println("-------------------------------------------------------------------------");
 		System.out.print(">");
 		int keyinput;
 		keyinput = scanner.nextInt();
 		stuNum += keyinput;
-				System.out.println("ÇöÀç ÇÐ»ýÀÇ ¼ö´Â " + stuNum + "¸í ÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ð»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ " + stuNum + "ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 				scores = new int[stuNum];
 		////////////////////////////////////////////////////////////////////////////////////////////////
 		} else if(selectNo ==2) {
 			System.out.println("-------------------------------------------------------------------------");
-			System.out.println("                               ÇÐ »ý °ü ¸® ¼­ ºñ ½º");	
+			System.out.println("                               ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½");	
 			System.out.println();
-			System.out.println("                             ÇÐ»ýÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+			System.out.println("                             ï¿½Ð»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½");
 			
 			System.out.println("-------------------------------------------------------------------------");
 			System.out.print("> ");
 		int keyinput;
 		for(int i=0; i<scores.length; i++) {
-			System.out.print(" ÇÐ»ý "+(i+1)+"ÀÇ ¼ºÀû ÀÔ·Â :");
+			System.out.print(" ï¿½Ð»ï¿½ "+(i+1)+"ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ :");
 			keyinput =scanner.nextInt();
 			scores[i] = keyinput;
 		}
@@ -58,22 +58,22 @@ public static void main(String args[]) {
 		} else if(selectNo ==3) {
 			
 			System.out.println("-------------------------------------------------------------------------");
-			System.out.println("                               ÇÐ »ý °ü ¸® ¼­ ºñ ½º");	
+			System.out.println("                               ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½");	
 			System.out.println();
-			System.out.println("                              ÇÐ»ýµéÀÇ Á¡¼ö¸¦ ¿­¶÷ÇÕ´Ï´Ù. ");
+			System.out.println("                              ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½. ");
 			
 			System.out.println("-------------------------------------------------------------------------");
 			System.out.print("> ");
 			for(int i=0; i<scores.length; i++) {
-				System.out.println(i+1 +"¹øÂ° ÇÐ»ýÀÇ Á¡¼ö " + scores[i]);	
+				System.out.println(i+1 +"ï¿½ï¿½Â° ï¿½Ð»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ " + scores[i]);	
 			}
    /////////////////////////////////////////////////////////////////////////////////////////////////////		
 		} else if(selectNo ==4) {
 			
 			System.out.println("-------------------------------------------------------------------------");
-			System.out.println("                               ÇÐ »ý °ü ¸® ¼­ ºñ ½º");	
+			System.out.println("                               ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½");	
 			System.out.println();
-			System.out.println("                         ÇÐ»ýµéÀÇ Á¡¼öÀÇ ÃÑÇÕ°ú Æò±ÕÀ» ¿­¶÷ÇÕ´Ï´Ù. ");
+			System.out.println("                         ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Õ°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½. ");
 			
 			System.out.println("-------------------------------------------------------------------------");
 			System.out.print("> ");
@@ -87,14 +87,14 @@ public static void main(String args[]) {
 				avg = (double)sum / scores.length;
 				
 				
-			}System.out.println("ÇÐ»ýµéÀÇ Á¡¼öÀÇ ÃÑÁ¡Àº " + sum+ "Á¡ÀÔ´Ï´Ù." );
-			System.out.println("ÇÐ»ýµéÀÇ Á¡¼öÀÇ Æò±ÕÀº " +  avg + "Á¡ÀÔ´Ï´Ù.");
+			}System.out.println("ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " + sum+ "ï¿½ï¿½ï¿½Ô´Ï´ï¿½." );
+			System.out.println("ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ " +  avg + "ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 		} else if(selectNo ==5) {
 			run = false;
 			
 		}
 	}
 
-	System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+	System.out.println("ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 }
 }

@@ -1,4 +1,4 @@
-package È®ÀÎ¹®Á¦;
+package verifyExam;
 
 public class _7ArrayMaxValue_For {
 
@@ -19,7 +19,7 @@ public class _7ArrayMaxValue_For {
 			}
 			
 		}
-		System.out.println("array ¹è¿­ÀÇ ÃÖ´ë°ªÀº " + max);
+		System.out.println("array ï¿½è¿­ï¿½ï¿½ ï¿½Ö´ë°ªï¿½ï¿½ " + max);
 	}
 
 }

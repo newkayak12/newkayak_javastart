@@ -1,10 +1,10 @@
-package È®ÀÎ¹®Á¦;
+package verifyExam;
 
 public class _03_For1To100 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-// for¹®À» ÀÌ¿ëÇØ¼­ 1ºÎÅÍ 100±îÁöÀÇ Á¤¼ö Áß¿¡¼­ 3ÀÇ ¹è¼öÀÇ ÃÑÇÕÀ» ±¸ÇÏ´Â ÄÚµå
+// forï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ø¼ï¿½ 1ï¿½ï¿½ï¿½ï¿½ 100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¿ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Úµï¿½
 		
 		int sumTri=0;
 		int tripleNumber;
@@ -15,6 +15,6 @@ public class _03_For1To100 {
 		}
 			
 	}
-		System.out.println("3ÀÇ ¹è¼öÀÇ ÃÑÇÕÀº " + sumTri);
+		System.out.println("3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " + sumTri);
 }
 	}
