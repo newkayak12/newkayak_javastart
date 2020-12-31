@@ -16,6 +16,7 @@ public class Account {
 		public void setOwner(String ownr) { this.ownr=ownr;}
 		public int getBalance() {return balance;}
 		public void setBalance(int balance) {this.balance=balance;}
+		
 }
 		
 		
