@@ -4,6 +4,7 @@ import java.util.*;
 
 public class BankApplication {
 	private static Account[] accountArray = new Account[100];
+	// if without static you should construct this class in main method
 		private static Scanner scanner = new Scanner(System.in);
 		
 		
@@ -110,12 +111,14 @@ private static void withdraw() {
 	findAccount(input).setBalance(sum);
 	System.out.println(findAccount(input).getBalance());	
 	}
+
+
 private static Account findAccount (String ano) {
 	int j = 0;
 		for(int i = 0; i<accountArray.length; i++) {
 			if(accountArray[i] != null) {
 				if(ano.equals(accountArray[i].getAno())) {
-j=i;					j=i;
+j=i;	
 				}
 			} else {break;}					
 				}
