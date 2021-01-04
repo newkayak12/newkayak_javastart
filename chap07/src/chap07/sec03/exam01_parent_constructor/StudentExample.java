@@ -1,4 +1,4 @@
-package chap07.sec03_parent_constructor;
+package chap07.sec03.exam01_parent_constructor;
 
 public class StudentExample {
 

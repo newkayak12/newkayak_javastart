@@ -1,4 +1,4 @@
-package chap07.sec02_inheritance;
+package chap07.sec02.exam01_inheritance;
 
 public class Cellphone {
 	String model, color;
