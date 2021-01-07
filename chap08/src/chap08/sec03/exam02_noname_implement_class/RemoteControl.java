@@ -1,4 +1,4 @@
-package chap08.sec02.exam05_static_method;
+package chap08.sec03.exam02_noname_implement_class;
 
 public interface RemoteControl {
 	 int MAX_VOLUME=10; //this is public static final
