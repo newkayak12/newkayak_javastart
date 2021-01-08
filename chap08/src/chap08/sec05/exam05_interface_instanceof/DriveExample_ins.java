@@ -11,6 +11,7 @@ public class DriveExample_ins {
 			
 			driver.drive(bus);
 			driver.drive(taxi);
+		System.out.println(" 테스");
 				
 //			instaceof로 구현객체를 조사해서 강제 타입변환하고 메소드도 추가하는 등 급나누기?
 				

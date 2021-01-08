@@ -8,7 +8,7 @@ public class test {
 	//int이든 long 이든 int 값 내로 메모리를 할당하면 둘 다 잘 받는다.
 	
 //	int var3 =10000000000000;
-//	long var4 =10000000000000;
+//	long var4 =1000000000000;
 	long var5 =10000000000000L;
 	//int를 넘어가고 long 범위 안의 값은 long에 'L'을 안 붙이면 에러
 	
