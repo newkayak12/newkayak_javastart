@@ -27,6 +27,8 @@ public class TryCatchFinallyRuntimeExceptionExample {
 			System.out.println("숫자로 변환할 수 없는 값입니다. ");
 		} finally {
 			System.out.println("다시 실행해주세요. ");
+			
+//			이거는 경험에 의해서 해야한다고 하네 
 		}
 	
 	
