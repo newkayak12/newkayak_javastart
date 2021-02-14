@@ -1,3 +1,4 @@
+
 package sec03.exam01_Sign;
 
 public class SingOperatorExample {
@@ -10,7 +11,7 @@ public static void main(String[] args) {
 	System.out.println(result2);
 	
 	short s =100;
-	//	short result3 = -s; ÄÄÆÄÀÏ ¿¡·¯, ºÎÈ£ ¿¬»êÀÚ°¡ ºÙÀ¸¸é »êÃâ°ªÀº int·Î ³ª¿À±â ¶§¹®¿¡
+	//	short result3 = -s; ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â°ªï¿½ï¿½ intï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	int result3 =-s;
 	System.out.println(result3);
 	
