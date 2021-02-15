@@ -1,8 +1,8 @@
-package exam01_createthread;
+package sec02.exam01_createthread;
 
 import java.awt.*;
 
-public class BeepPrintExample3 {
+public class BeepPrintExample2 {
 
 	public static void main(String[] args) {
 //		main method는 jvm이 만든 main thread가 실행
@@ -45,66 +45,27 @@ public class BeepPrintExample3 {
 		
 		
 //		 ***************************3번째 방법 : 람다식 > 이렇게 하면 Runnable이 알아서 구현
-//		Thread thread = new Thread(() -> { 
-//			
-//			Toolkit toolkit = Toolkit.getDefaultToolkit();
-//						for( int i = 0; i< 5; i++) {
-//							toolkit.beep();
-//							
-//							
-//								try {Thread.sleep(500);
-//								
-//								} catch (Exception e) {
-//									
-//								}
-//						}
-//			
-//			
-//		}  );
-//		
-//		thread.start();
-		
-	//****************************4번 방법 : Thread를 상속받은 하위 thread로 구현
-		
-//		Thread bt = new BeepThread();
-//		bt.start();
-//		
-		
-		
-		//**************************** 5번 방법 :  쓰레드 객체를 익명 객체로 생성
-		
-		Thread thread = new Thread() {
-					public void run() {
-						Toolkit tool = Toolkit.getDefaultToolkit();
-						
-									for(int i=0; i< 5; i++) {
-										tool.beep();
-										
-													try {
-															Thread thread = new Thread();
-															thread.sleep(500);
-													} catch (Exception e) {
-													
-													
-													}
-									}
-						
-						
-					};
-		};
-		
+		Thread thread = new Thread(() -> { 
+			
+			Toolkit toolkit = Toolkit.getDefaultToolkit();
+						for( int i = 0; i< 5; i++) {
+							toolkit.beep();
+							
+							
+								try {Thread.sleep(500);
+								
+								} catch (Exception e) {
+									
+								}
+						}
+			
+			
+		}  );
 		
 		thread.start();
+		
 ///////////////////////이렇게 동시에 무언가를 해야한다면  쓰레드를 생성해서 작업을 나눈다. 			
-		//Runnable로 하거나
-//		Thread 상속으로 하거나
-		
-		
-		
-		
-		
-		
-		
+			
 				for(int i = 0; i<5; i++) {
 					System.out.println("beep!");
 				try { Thread.sleep(500);

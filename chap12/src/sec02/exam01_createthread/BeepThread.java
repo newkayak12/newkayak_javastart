@@ -1,4 +1,4 @@
-package exam01_createthread;
+package sec02.exam01_createthread;
 
 import java.awt.*;
 

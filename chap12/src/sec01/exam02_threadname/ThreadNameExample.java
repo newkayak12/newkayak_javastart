@@ -1,4 +1,4 @@
-package exam02_threadname;
+package sec01.exam02_threadname;
 
 public class ThreadNameExample {
 	public static void main(String[] args) {
