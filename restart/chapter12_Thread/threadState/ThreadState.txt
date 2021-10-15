@@ -1,0 +1,29 @@
+
+
+쓰레드 객체 생성     start()          실행 대기
+------------	==========>     ------------
+    new   		          Runnable
+
+				    |  |
+				    |  |				  
+				    |  |				    
+				    |  |
+									종 료
+				    실  행  >>>>>>>>>>>>>>>>>>>>       ---------
+				    					Terminated
+
+
+객체 생성 > new
+실행 대기 > Runnable
+일시 정지 > Wating
+	> Timed_Waiting
+	> blocked
+종료	> Terminated
+
+
+
+일시 정지   -----> { interrupt(), notify(), notifyAll(), <resume()>} ------> 실행 대기 
+	\								   ^
+	 \							  yield()  |	|
+	  \										<stop()>
+	    {sleep(), join(), wait(), <suspend()>} ----------------->       실행    ---------> 종료 

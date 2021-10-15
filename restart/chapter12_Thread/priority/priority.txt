@@ -1,0 +1,12 @@
+멀티쓰레드는 동시성(하나의 코어에서 멀티 쓰레드가 번갈아 가면서 실행) 혹은 병렬성(멀티 코어에서 개별 쓰레드를 동시에 실행)으로 실행된다. 
+
+쓰레드 스케쥴링은 우선순위 방식과 라운드로빈을 이용한다. 
+
+
+우선순위는 우선순위가 높은 쓰레드가 실행 상태를 더 많이 가져가도록 하는 것 
+라운드 로빈은 시간 할당량을 정해서 하나의 쓰레드를 정해진 시간만큼 실행하고 다음 스케쥴로 넘어가는 방식을 말한다. 
+
+
+thread.setPriority(Thread.MAX_PRIORITY)
+thread.setPriority(Thread.NORM_PROIORITY)
+thread.setPriority(Thread.MIN_PRIORITY)
