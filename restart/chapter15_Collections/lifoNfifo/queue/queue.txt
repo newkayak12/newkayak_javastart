@@ -1,0 +1,1 @@
+queue를 구현한 대표적 클래스는 linkedList이다. 
