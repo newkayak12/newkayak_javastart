@@ -1,4 +1,4 @@
-package parameter;
+package functionalInterface.parameter;
 
 public class MyfunctionalInterfaceExample {
 	public static void main(String[] args) {

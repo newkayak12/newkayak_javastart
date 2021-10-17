@@ -1,4 +1,4 @@
-package existreturn;
+package functionalInterface.existreturn;
 
 public class MyfunctionalInterfaceExample {
 	public static void main(String[] args) {

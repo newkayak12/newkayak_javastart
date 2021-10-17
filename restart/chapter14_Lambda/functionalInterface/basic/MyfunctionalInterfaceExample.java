@@ -1,4 +1,4 @@
-package basic;
+package functionalInterface.basic;
 public class MyfunctionalInterfaceExample {
 	public static void main(String[] args) {
 		MyfunctionalInterface fi;
