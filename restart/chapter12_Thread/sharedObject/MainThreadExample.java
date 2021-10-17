@@ -1,3 +1,4 @@
+package sharedObject;
 public class MainThreadExample {
 	public static void main(String[] args) {
 		Calculator calc = new Calculator();

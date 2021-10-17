@@ -1,3 +1,4 @@
+package priority;
 public class CalcThread extends Thread {
 
 	public CalcThread(String name) {

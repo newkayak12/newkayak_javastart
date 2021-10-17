@@ -1,3 +1,4 @@
+package sharedObject;
 public class User1 extends Thread{
 	
 	private Calculator calc;

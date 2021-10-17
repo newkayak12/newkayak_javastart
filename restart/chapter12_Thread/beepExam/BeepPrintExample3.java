@@ -1,3 +1,4 @@
+package beepExam;
 public class BeepPrintExample3 {
 	
 

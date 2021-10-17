@@ -1,3 +1,4 @@
+package beepExam;
 import java.awt.Toolkit;
 
 public class BeepThread extends Thread{

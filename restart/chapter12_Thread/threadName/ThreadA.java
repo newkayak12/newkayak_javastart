@@ -1,3 +1,4 @@
+package threadName;
 public class ThreadA extends Thread{
 
 

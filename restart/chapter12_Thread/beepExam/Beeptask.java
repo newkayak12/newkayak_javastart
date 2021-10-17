@@ -1,3 +1,5 @@
+package beepExam;
+
 import java.awt.Toolkit;
 
 public class Beeptask implements Runnable{

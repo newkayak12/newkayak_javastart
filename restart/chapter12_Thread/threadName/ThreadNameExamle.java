@@ -1,3 +1,4 @@
+package threadName;
 public class ThreadNameExamle {
 	public static void main(String[] args) {
 		Thread mainThread = Thread.currentThread();
